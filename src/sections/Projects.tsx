@@ -85,7 +85,7 @@ export const ProjectsSection = () => {
             visible: { opacity: 1, y: 0 },
           }}
           transition={{ duration: 0.6, ease: "easeOut" }}
-          className="text-4xl md:text-7xl lg:text-8xl"
+          className="text-4xl md:text-7xl lg:text-8xl sm:text-center"
         >
           Projects
         </motion.h2>
