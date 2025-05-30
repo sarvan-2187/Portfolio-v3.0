@@ -43,7 +43,7 @@ const GallerySection: FC = () => {
             hidden: { opacity: 0, y: 40 },
             visible: { opacity: 1, y: 0 },
           }}
-          transition={{ duration: 0.6, ease: "easeOut" }} className="text-4xl md:text-7xl lg:text-8xl">Gallery</motion.h2>
+          transition={{ duration: 0.6, ease: "easeOut" }} className="text-4xl md:text-7xl lg:text-8xl sm:text-center">Gallery</motion.h2>
 
         <div className="mt-8 md:mt-16 lg:mt-18 grid grid-cols-1 md:grid-cols-2 gap-12">
           {galleryItems.map(({ image, title, description }, idx) => (
