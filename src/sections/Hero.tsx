@@ -43,10 +43,9 @@ const Hero: FC = () => {
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               ref={titleScope}
-              className="text-5xl md:text-6xl sm:max-w-[80%] mt-60 md:mt-0 lg:text-7xl md:w-[80%]"
+              className="text-5xl md:text-6xl sm:max-w-[90%] mt-40 md:mt-0 lg:text-7xl md:w-[80%]"
             >
-              Crafting digital experiences through code and creative design
-            </motion.h1>
+              Shaping immersive digital experiences through innovative code and inspired design.</motion.h1>
             <div className="flex flex-col mt-10 items-start gap-6 md:flex md:flex-row md:items-center">
               <motion.div
                 initial={{ opacity: 0, y: '100%' }}
