@@ -98,7 +98,13 @@ const Hero: FC = () => {
               alt="My Portrait"
             />
           </motion.div>
-          <div className=""><FlipCard/></div>
+          <div className="w-full">
+          <Image
+              src={heroImage}
+              className="md:hidden lg:hidden size-full object-cover"
+              alt="My Portrait"
+            />
+          </div>
           
         </div>
       </div>
