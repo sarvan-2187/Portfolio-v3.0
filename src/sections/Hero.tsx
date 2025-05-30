@@ -98,7 +98,7 @@ const Hero: FC = () => {
               alt="My Portrait"
             />
           </motion.div>
-          <div className="w-full pt-14">
+          <div className="md:hidden lg:hidden w-full mt-18">
           <Image
               src={heroImage}
               className="md:hidden lg:hidden size-full object-cover"
