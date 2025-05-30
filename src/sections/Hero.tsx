@@ -98,7 +98,7 @@ const Hero: FC = () => {
               alt="My Portrait"
             />
           </motion.div>
-          <div className="pt-12 pb-0 flex items-center justify-center"><FlipCard/></div>
+          <div className="pt-12 pb-0"><FlipCard/></div>
           
         </div>
       </div>
