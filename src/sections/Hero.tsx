@@ -5,7 +5,6 @@ import Image from "next/image";
 import Button from "@/components/button";
 import SplitType from "split-type";
 import { motion, stagger, useAnimate, useScroll, useTransform } from "motion/react";
-import FlipCard from "@/components/flipcard";
 
 const Hero: FC = () => {
   const [titleScope, titleAnimate] = useAnimate();
