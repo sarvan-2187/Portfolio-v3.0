@@ -38,7 +38,7 @@ const SkillSection = () => {
       className="py-24 md:py-32 lg:py-40 bg-stone-950 text-stone-100"
     >
       <div className="container">
-        <h2 className="text-4xl md:text-7xl lg:text-8xl">My Skills</h2>
+        <h2 className="text-4xl md:text-7xl lg:text-8xl sm:text-center">My Skills</h2>
 
         <div className="mt-10 md:mt-16 lg:mt-20 grid grid-cols-1 md:grid-cols-2 gap-x-16 gap-y-2">
           {skills.map((skill) => (
