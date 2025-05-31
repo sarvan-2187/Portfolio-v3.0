@@ -37,7 +37,7 @@ const navItems = [
 const Footer: FC = () => {
 const ref = useRef(null);
 const isInView = useInView(ref, { once: true, amount: 0.2 });
-  return <footer id="contact" className="bg-stone-950 text-white">
+  return <footer id="contact" className="bg-stone-900 text-white">
     <div className="container">
       <div className="py-8 md:py-32 lg:py-30">
                   <div className="flex items-center gap-4 mb-2">
