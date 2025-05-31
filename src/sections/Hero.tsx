@@ -51,7 +51,7 @@ const Hero: FC = () => {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: 1.75 }}
               >
-                <Button
+                <a href="#projects"><Button
                   className="hover:bg-orange-900 transition-all duration-500"
                   variant="secondary"
                   iconAfter={
@@ -70,7 +70,8 @@ const Hero: FC = () => {
                   }
                 >
                   <span>My Works</span>
-                </Button>
+                </Button></a>
+                
               </motion.div>
               <motion.div
                 initial={{ opacity: 0, y: '100%' }}
