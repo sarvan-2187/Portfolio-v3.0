@@ -8,7 +8,7 @@ const navItems = [
     href: "#about",
   },
   {
-    label: "Gallery",
+    label: "Certificates",
     href: "#gallery",
   },
   {
