@@ -45,7 +45,7 @@ const Hero: FC = () => {
               className="text-4xl md:text-6xl sm:max-w-[95%]  mt-40 md:mt-0 lg:text-7xl md:w-[80%]"
             >
               Welcome! 👋<br></br> I'm Sarvan Kumar.<br></br>A Frontend Engineer<br></br>with Expertise in HTML5, CSS3, JavaScript (ES6+), React, Next.JS, Tailwind, Figma, AdobeXD, Git, Framer, Webflow and Canva.</motion.h1>
-            <div className="flex flex-col mt-10 mb-10 items-start gap-6 md:flex md:flex-row md:items-center">
+            <div className="flex mt-10 mb-10 items-start gap-6 md:flex md:flex-row md:items-center">
               <motion.div
                 initial={{ opacity: 0, y: '100%' }}
                 animate={{ opacity: 1, y: 0 }}
