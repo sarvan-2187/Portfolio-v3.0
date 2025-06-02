@@ -73,7 +73,7 @@ export const ProjectsSection = () => {
   }, [isInView, controls]);
 
   return (
-    <section className="pt-14 pb-16 bg-stone-950" id="projects">
+    <section className="pt-16 pb-16 bg-stone-950" id="projects">
       <div className="container">
 
         <motion.h2
