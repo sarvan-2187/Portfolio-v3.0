@@ -45,7 +45,7 @@ const Hero: FC = () => {
               className="text-5xl md:text-6xl sm:max-w-[90%]  mt-40 md:mt-0 lg:text-7xl md:w-[80%]"
             >
               Hola!👋 I'm Sarvan Kumar. My Core TechStacks are HTML, CSS, JavaScript, React, Next.JS, Tailwind CSS</motion.h1>
-            <div className="flex flex-col mt-10 items-start gap-6 md:flex md:flex-row md:items-center">
+            <div className="flex flex-col mt-10 mb-10 items-start gap-6 md:flex md:flex-row md:items-center">
               <motion.div
                 initial={{ opacity: 0, y: '100%' }}
                 animate={{ opacity: 1, y: 0 }}
