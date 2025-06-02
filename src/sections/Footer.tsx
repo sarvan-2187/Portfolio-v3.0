@@ -39,7 +39,7 @@ const ref = useRef(null);
 const isInView = useInView(ref, { once: true, amount: 0.2 });
   return <footer id="contact" className="bg-stone-900 text-white">
     <div className="container">
-      <div className="py-8 md:py-32 lg:py-30">
+      <div className="py-16 md:py-32 lg:py-30">
                   <div className="flex items-center gap-4 mb-2">
             <div className="bg-green-500 size-2.5 rounded-full relative">
               <div className="bg-green-500 absolute inset-0 rounded-full animate-ping-large"></div>
