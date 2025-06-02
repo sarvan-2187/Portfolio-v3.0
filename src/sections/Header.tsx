@@ -8,16 +8,20 @@ const navItems = [
     href: "#about",
   },
   {
-    label: "Certificates",
-    href: "#gallery",
-  },
-  {
     label: "My Works",
     href: "#projects",
   },
   {
+    label: "Certificates",
+    href: "#gallery",
+  },
+  {
     label: "Skills",
     href: "#skills",
+  },
+  {
+    label: "FAQs",
+    href: "#faqs",
   },
   {
     label: "Contact",
