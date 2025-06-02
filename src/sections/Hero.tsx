@@ -73,7 +73,7 @@ const Hero: FC = () => {
                 transition={{ duration: 0.5, delay: 2.2 }}
               >
                 <Button variant="primary" className="hover:bg-orange-600 transition-all duration-500">
-                  Download CV
+                  Download CV📄
                 </Button>
               </motion.div>
             </div>
