@@ -28,7 +28,7 @@ const Hero: FC = () => {
       transform: 'translateY(0)'
     }, {
       duration: 0.5,
-      delay: stagger(0.2),
+      delay: stagger(0.1),
     });
   }, []);
 
