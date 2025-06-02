@@ -63,7 +63,7 @@ const Hero: FC = () => {
                     </div>
                   }
                 >
-                  <span>View Github</span>
+                  <span>Github</span>
                 </Button></a>
                 
               </motion.div>
