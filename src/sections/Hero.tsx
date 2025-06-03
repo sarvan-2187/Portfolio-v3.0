@@ -33,7 +33,7 @@ const Hero: FC = () => {
   }, []);
 
   return (
-    <section id="home">
+    <section>
       <div className="grid md:grid-cols-12 md:h-screen items-stretch sticky top-0">
         {/* Left Side */}
         <div className="md:col-span-7 flex flex-col justify-center">
