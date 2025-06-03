@@ -44,7 +44,7 @@ const Hero: FC = () => {
               ref={titleScope}
               className="text-4xl md:text-6xl sm:max-w-[95%]  mt-40 md:mt-0 mb-4 lg:text-7xl md:w-[80%]"
             >
-              Welcome! <span className='wave'>👋</span><br></br>I'm <span className='text-orange-500 animate-pulse'>Sarvan Kumar</span>.<br></br>A Frontend Engineer<br></br>with high Expertise in HTML5, CSS3, JavaScript (ES6+), React, Next.JS, Tailwind, Figma, AdobeXD, Git, Framer, Webflow and Canva.</motion.h1>
+              Welcome! <span className='wave'>👋</span><br></br>I'm <span className='text-orange-500 animate-pulse'>Sarvan Kumar</span>.<br></br>A Frontend Engineer<br></br>with high Expertise in HTML5, CSS3, JavaScript (ES6+), React, Next.JS, Tailwind CSS, Figma, AdobeXD, Git, Framer, Webflow and Canva.</motion.h1>
             <div className="flex mt-10 mb-20 items-start gap-6 md:flex md:flex-row md:items-center">
               <motion.div
                 initial={{ opacity: 0, y: '100%' }}
