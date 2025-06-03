@@ -21,7 +21,7 @@ const galleryItems = [
   },
   {
     image: gallery2,
-    title: "Annual Academic Excellence Award",
+    title: "Academic Excellence Award",
     description: "The award was presented by the Vice-Chancellor of Andhra University for academic excellence among top-performing students.",
     href:'https://app-na2.hubspot.com/academy/achievements/j9ykrpsp/en/1/nagarampalli-sarvan-kumar/seo',
   },
