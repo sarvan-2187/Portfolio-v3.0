@@ -4,7 +4,6 @@ import Image from "next/image";
 import { FC, useEffect, useRef } from "react";
 import gallery1 from "@/assets/images/cert-1.png";
 import gallery3 from "@/assets/images/cert-3.png";
-import gallery6 from "@/assets/images/cert-6.png";
 
 
 import { motion, useAnimation, useInView } from "motion/react";
@@ -21,13 +20,6 @@ const galleryItems = [
     title: "SEO Certified",
     description: "Successfully cleared the Search Engine Optimization Certification exam with a score of 50/60 from Hubspot Academy.",
         href:'https://app-na2.hubspot.com/academy/achievements/j9ykrpsp/en/1/nagarampalli-sarvan-kumar/seo',
-
-  },
-  {
-    image: gallery6,
-    title: "CSS (Basic)",
-    description: "Successfully cleared the CSS (Basic) Certification exam from HackerRank.",
-        href:'https://www.hackerrank.com/certificates/bd5f2797ce74',
 
   },
 ];
