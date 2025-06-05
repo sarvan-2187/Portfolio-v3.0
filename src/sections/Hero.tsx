@@ -39,7 +39,7 @@ const Hero: FC = () => {
         <div className="md:col-span-7 flex flex-col justify-center">
           <div className="container !max-w-full">
             <h1 className="text-4xl md:text-6xl sm:max-w-[95%]  mt-40  mb-4 lg:text-5xl md:w-[80%]"
->Welcome! <span className='wave'>👋</span><br></br>I&apos;m <span className='text-orange-500 animate-pulse'>Sarvan Kumar</span></h1>
+>Welcome! <span className='wave'>👋</span><br></br>I&apos;m <span className='text-gray-500 animate-pulse'>Sarvan Kumar</span></h1>
             <motion.h1
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
@@ -54,7 +54,7 @@ const Hero: FC = () => {
                 transition={{ duration: 0.5, delay: 1.75 }}
               >
                 <a href="https://github.com/sarvan-2187" target="_blank"><Button
-                  className="hover:bg-orange-900 transition-all duration-500"
+                  className="hover:bg-gray-900 transition-all duration-500"
                   variant="secondary"
                   iconAfter={
                     <div className="overflow-hidden size-5 flex flex-col">
@@ -74,7 +74,7 @@ const Hero: FC = () => {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: 2.2 }}
               >
-                <Button variant="primary" className="hover:bg-orange-600 transition-all duration-500">
+                <Button variant="primary" className="hover:bg-gray-900 transition-all duration-500">
                   Resume 📄
                 </Button>
               </motion.div>
