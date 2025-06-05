@@ -37,7 +37,7 @@ const Hero: FC = () => {
       <div className="grid md:grid-cols-12 md:h-screen items-stretch sticky top-0">
         {/* Left Side */}
         <div className="md:col-span-7 flex flex-col justify-center">
-          <div className="container !max-w-full">
+          <div className="container !max-w-full h-screen">
             <h1 className="text-4xl md:text-6xl sm:max-w-[95%]  mt-40  mb-4 lg:text-5xl md:w-[80%]"
 >Welcome! <span className='wave'>👋</span><br></br>I&apos;m <span className='text-gray-200 animate-pulse'>Sarvan Kumar</span></h1>
             <motion.h1
