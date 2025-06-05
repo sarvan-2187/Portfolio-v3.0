@@ -44,7 +44,7 @@ const Hero: FC = () => {
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               ref={titleScope}
-              className="text-4xl md:text-6xl sm:max-w-[95%]  mt-40  mb-4 lg:text-5xl md:w-[80%]"
+              className="text-4xl md:text-6xl sm:max-w-[95%]  mt-4  mb-4 lg:text-5xl md:w-[80%]"
             >
               A Frontend Engineer<br></br>with Expertise in HTML, CSS, JavaScript, React.JS, Next.JS, Tailwind, Figma, AdobeXD, Git, Framer, Webflow and Canva.</motion.h1>
             <div className="flex mt-10 mb-20 items-start gap-6 md:flex md:flex-row md:items-center">
