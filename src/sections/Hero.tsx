@@ -38,6 +38,13 @@ const Hero: FC = () => {
         {/* Left Side */}
         <div className="md:col-span-7 flex flex-col justify-center">
           <div className="container !max-w-full sm:h-screen">
+            <div className="md:hidden lg:hidden w-full px-12 py-12">
+          <Image
+              src={heroImage}
+              className="md:hidden lg:hidden size-full object-cover"
+              alt="My Portrait"
+            />
+          </div>
             <h1 className="text-4xl md:text-6xl sm:max-w-[95%] mt-40 md:mt-40  mb-4 lg:text-5xl md:w-[80%]"
 >Welcome! <span className='wave'>👋</span><br></br>I&apos;m <span className='text-gray-200 animate-pulse'>Sarvan Kumar</span></h1>
             <motion.h1
@@ -94,13 +101,6 @@ const Hero: FC = () => {
               alt="My Portrait"
             />
           </motion.div>
-          <div className="md:hidden lg:hidden w-full pt-12">
-          <Image
-              src={heroImage}
-              className="md:hidden lg:hidden size-full object-cover"
-              alt="My Portrait"
-            />
-          </div>
           
         </div>
       </div>
