@@ -38,13 +38,15 @@ const Hero: FC = () => {
         {/* Left Side */}
         <div className="md:col-span-7 flex flex-col justify-center">
           <div className="container !max-w-full">
+            <h1 className="text-4xl md:text-6xl sm:max-w-[95%]  mt-40  mb-4 lg:text-5xl md:w-[80%]"
+>Welcome! <span className='wave'>👋</span><br></br>I&apos;m <span className='text-orange-500 animate-pulse'>Sarvan Kumar</span></h1>
             <motion.h1
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               ref={titleScope}
               className="text-4xl md:text-6xl sm:max-w-[95%]  mt-40  mb-4 lg:text-5xl md:w-[80%]"
             >
-              Welcome! <span className='wave'>👋</span><br></br>I&apos;m <span className='text-orange-500 animate-pulse'>Sarvan Kumar</span>.<br></br><span className="text-4xl">A Frontend Engineer<br></br>with Expertise in HTML, CSS, JavaScript, React.JS, Next.JS, Tailwind, Figma, AdobeXD, Git, Framer, Webflow and Canva.</span></motion.h1>
+              A Frontend Engineer<br></br>with Expertise in HTML, CSS, JavaScript, React.JS, Next.JS, Tailwind, Figma, AdobeXD, Git, Framer, Webflow and Canva.</motion.h1>
             <div className="flex mt-10 mb-20 items-start gap-6 md:flex md:flex-row md:items-center">
               <motion.div
                 initial={{ opacity: 0, y: '100%' }}
