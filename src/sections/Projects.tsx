@@ -94,7 +94,7 @@ export const ProjectsSection = () => {
           {portfolioProjects.map((project, projectIndex) => (
             <div
               key={project.title}
-              className="bg-stone-900 first:bg-slate-700 rounded-3xl relative z-0 md:mt-20 md:pt-12 md:px-10 overflow-hidden after:z-10 after:content-[''] after:absolute after:inset-0 after:outline after:outline-2 after:-outline-offset-2 after:rounded-3xl after:outline-white/20 px-8 pt-8 pl-8 after:pointer-events-none lg:pt-16 lg:px-20"
+              className="bg-gradient-to-br from-gray-600 via-gray-800 to-stone-600 rounded-3xl relative z-0 md:mt-20 md:pt-12 md:px-10 overflow-hidden after:z-10 after:content-[''] after:absolute after:inset-0 after:outline after:outline-2 after:-outline-offset-2 after:rounded-3xl after:outline-white/20 px-8 pt-8 pl-8 after:pointer-events-none lg:pt-16 lg:px-20"
               style={{
                 position: "sticky",
                 top: `calc(90px + ${projectIndex * 20}px)`,
