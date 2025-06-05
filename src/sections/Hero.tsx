@@ -46,7 +46,7 @@ const Hero: FC = () => {
             />
           </div>
             <h1 className="text-4xl md:text-6xl sm:max-w-[95%] mt-4 md:mt-40  mb-4 lg:text-5xl md:w-[80%]"
->Welcome! <span className='wave'>👋</span><br></br>I&apos;m <span className='text-orange-500'>Sarvan Kumar</span></h1>
+>Welcome! <span className='wave'>👋</span><br></br>I&apos;m <span className='text-orange-800'>Sarvan Kumar</span></h1>
             <motion.h1
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
