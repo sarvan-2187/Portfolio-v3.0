@@ -38,14 +38,17 @@ const Hero: FC = () => {
         {/* Left Side */}
         <div className="md:col-span-7 flex flex-col justify-center">
           <div className="container !max-w-full sm:h-screen">
-            <div className="flex items-center justify-center md:hidden lg:hidden mt-20 w-[100px] h-[100px]">
-          <Image
-              src={heroImage}
-              className="md:hidden lg:hidden size-full object-cover rounded-full"
-              alt="My Portrait"
-            />
-          </div>
-            <h1 className="text-4xl md:text-6xl sm:max-w-[95%] mt-4 md:mt-40  mb-4 lg:text-5xl md:w-[80%]"
+            <div className="flex items-center justify-center md:hidden lg:hidden">
+              <div className="flex items-center justify-center md:hidden lg:hidden mt-20 w-[100px] h-[100px]">
+              <Image
+                  src={heroImage}
+                  className="md:hidden lg:hidden size-full object-cover rounded-full"
+                  alt="My Portrait"
+                />
+              </div>
+            </div>
+         
+            <h1 className="text-4xl md:text-6xl sm:max-w-[95%] mt-4 md:mt-48  mb-4 lg:text-5xl md:w-[80%]"
 >Welcome! <span className='wave'>👋</span><br></br>I&apos;m <span className='text-orange-800'>Sarvan Kumar</span></h1>
             <motion.h1
               initial={{ opacity: 0 }}
