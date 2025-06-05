@@ -74,7 +74,7 @@ const Hero: FC = () => {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: 2.2 }}
               >
-                <Button variant="primary" className="hover:bg-gray-900 transition-all duration-500">
+                <Button variant="primary" className="hover:bg-gray-600 transition-all duration-500">
                   Resume 📄
                 </Button>
               </motion.div>
