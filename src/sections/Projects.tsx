@@ -90,7 +90,7 @@ export const ProjectsSection = () => {
           Projects
         </motion.h2>
 
-        <div className="flex flex-col mt-10 lg:mt-2 gap-20 lg:gap-0">
+        <div className="flex flex-col mt-10 lg:mt-2 px-2 gap-20 lg:gap-0">
           {portfolioProjects.map((project, projectIndex) => (
             <div
               key={project.title}
