@@ -39,7 +39,7 @@ const Hero: FC = () => {
         {/* Left Side */}
         <div className="md:col-span-7 flex flex-col justify-center">
           <div className="container !max-w-full sm:h-screen">
-            <div className="flex items-center justify-end mb-4 md:hidden lg:hidden">
+            <div className="flex items-center mb-4 md:hidden lg:hidden">
               <div className=" md:hidden lg:hidden mt-20 w-[100px] h-[100px]">
               <Image
                   src={heroImageMobile}
