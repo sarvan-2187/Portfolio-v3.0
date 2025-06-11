@@ -1,6 +1,7 @@
 'use client';
 import { FC, useEffect, useRef, useState } from "react";
 import heroImage from "@/assets/images/hero_image.jpg";
+import heroImageMobile from "@/assets/images/hero_image_mobile.jpg";
 import Image from "next/image";
 import Button from "@/components/button";
 import SplitType from "split-type";
@@ -41,7 +42,7 @@ const Hero: FC = () => {
             <div className=" md:hidden lg:hidden">
               <div className=" md:hidden lg:hidden mt-20 w-[100px] h-[100px]">
               <Image
-                  src={heroImage}
+                  src={heroImageMobile}
                   className="md:hidden lg:hidden size-full object-cover rounded-full"
                   alt="My Portrait"
                 />
